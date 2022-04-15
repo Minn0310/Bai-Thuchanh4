@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#header {
+    width: 100%;
+    position: relative;
+}
+
+.subnav1 {
+    position: absolute;
+    top: 20px;
+    left: 115px;
+}
+
+.subnav1>ul>li>a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.subnav1>ul>li>a:hover {
+    color: red;
+}
+
+#search {
+    padding: 5px;
+    width: 209px;
+}
+
+.subnav2 {
+    position: absolute;
+    top: 60px;
+    left: 115px;
+    background-color: orange;
+    width: 885px;
+    height: 60px;
+    line-height: 60px;
+}
+
+i:hover {
+    color: red;
+}
+
+.subnav2>ul>li>a {
+    color: white;
+}
+
+.subnav2>ul>li>a:hover {
+    color: red;
+}
+
+ul>li {
+    float: left;
+    list-style: none;
+}
+
+ul>li a {
+    padding: 12px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.icon-header {
+    font-size: 24px;
+    color: white;
+    padding-left: 20px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+
+/* slider */
+
+#slider>a>img {
+    height: 300px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+.event {
+    width: 1000px;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.img-first {
+    float: left;
+    width: 500px;
+}
+
+.img-second {
+    float: left;
+    width: 470px;
+    height: 195px;
+}
+
+.img-second> {
+    float: left;
+    width: 470px;
+    height: 195px;
+}
+
+.img3 {
+    float: left;
+}
+
+.img4 img {
+    float: right;
+    width: 245px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+/* content */
+
+#content {
+    width: 1000px;
+    height: auto;
+}
+
+.title {
+    font-size: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+    text-decoration: underline;
+}
+
+.left {
+    width: 640px;
+    float: left;
+}
+
+.group>a>img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 400px;
+    float: right;
+}
+
+.time {
+    font-size: 13px;
+    color: gray;
+    margin: 10px;
+}
+
+.text>p {
+    width: 380px;
+    margin: 15px 0;
+}
+
+.right {
+    width: 350px;
+    float: left;
+}
+
+.right>ul>li {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed rgb(241, 238, 238);
+}
+
+.right>ul>li>a {
+    color: black;
+    text-align: left;
+    padding: 1px;
+}
+
+.right>img {
+    width: 356px;
+    height: 365px;
+}
+
+.btn {
+    width: 1000px;
+    margin-bottom: 40px;
+    margin-left: 50%;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: orange;
+}
+
+
+/* footer */
+
+#footer {
+    width: 1100px;
+    height: 250px;
+    background-color: rgb(61, 59, 59);
+    margin: 0 auto;
+}
+
+.trai {
+    width: 70%;
+    float: left;
+    padding: 40px;
+}
+
+.phai {
+    width: 29%;
+    float: right;
+    padding: 40px;
+}
+
+h5 {
+    font-size: 20px;
+    color: rgb(236, 227, 227);
+    text-transform: uppercase;
+    margin-right: 25px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+p7 {
+    color: white;
+    top: 240px;
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 0.5em;
+    width: 400px;
+    font-family: sans-serif;
+}
+
+p8 {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 8em;
+    padding: 4px;
+}
+
+p9 {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 19em;
+    left: 34em;
+    padding: 4px;
+    width: 180px;
+}
+
+p10 {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: absolute;
+    top: 17em;
+    left: 45em;
+    width: 210px;
+}
+
+.subfooter {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    margin: auto 0 auto;
+}
+
+.icon-footer {
+    font-size: 25x;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.subfooter>p {
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+p1 {
+    color: rgb(173, 165, 165);
+    width: 50%;
+    font-size: 17px;
+    text-align: left;
+}
+
+p2 {
+    color: rgb(173, 165, 165);
+    width: 60%;
+    font-size: 16px;
+    line-height: 5;
+    text-align: left;
+}
+
+.news-list {
+    font-size: 12px;
+    text-align: left;
+    text-transform: none;
+    font-family: serif;
+}
+
+h3:hover {
+    color: red;
+}
+
+.title a {
+    font-size: 23px;
+    top: 5em;
+}
